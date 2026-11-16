@@ -1,0 +1,4 @@
+:HL["/focus-board-site/_next/static/css/98225cde9af042b2.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"projects","h":96,"c":"$Q2"}]]
+0:{"b":"KkyHs3wCyDSP0JZYb7M9s","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
