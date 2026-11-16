@@ -1,5 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="120" fill="#2f6d4d"/>
-  <path d="M142 160h228M142 256h150M142 352h205" stroke="#fffefa" stroke-width="42" stroke-linecap="round"/>
-  <circle cx="353" cy="256" r="28" fill="#e9a48d"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Focus Board">
+  <defs>
+    <linearGradient id="background" x1="72" y1="56" x2="440" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A58AC4"/>
+      <stop offset="1" stop-color="#70548F"/>
+    </linearGradient>
+    <filter id="shadow" x="88" y="92" width="336" height="340" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#4D3568" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#background)"/>
+  <rect x="118" y="112" width="276" height="288" rx="82" fill="#FCF9FF" filter="url(#shadow)"/>
+  <path d="m174 264 52 52 118-126" fill="none" stroke="#70548F" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M374 88v52M348 114h52" stroke="#F7C9D4" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="407" cy="166" r="12" fill="#FFF0C2"/>
 </svg>

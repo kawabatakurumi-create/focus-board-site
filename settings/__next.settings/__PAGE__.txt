@@ -7,7 +7,7 @@
 7:"ServiceWorkerRegister"
 8:I[8847,["177","$2"],"$7"]
 f:"static/chunks/977-eb2b1dfcca0204d5.js"
-10:"static/chunks/app/settings/page-0df7e9c2f2d354bc.js"
+10:"static/chunks/app/settings/page-d600eac166b9bfb4.js"
 11:I[718,["977","$f","662","$10"],"AppShell"]
 12:I[7380,["977","$f","662","$10"],"SettingsPanel"]
 13:I[8615,[],"OutletBoundary"]
@@ -16,19 +16,20 @@ f:"static/chunks/977-eb2b1dfcca0204d5.js"
 18:I[8615,[],"$17"]
 19:"MetadataBoundary"
 1a:I[8615,[],"$19"]
-:HL["/focus-board-site/_next/static/css/98225cde9af042b2.css","style"]
+1b:I[6886,[],"IconMark"]
+:HL["/focus-board-site/_next/static/css/cd3da3882a9b6913.css","style"]
 a:X
 d:X
 d:C
 e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L11",null,{"children":[["$","div",null,{"className":"mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end","children":[["$","div",null,{"children":["$undefined",["$","h1",null,{"className":"text-3xl font-semibold tracking-[-.04em] sm:text-4xl","children":"設定"}],["$","p",null,{"className":"mt-2 text-sm text-[#6f786f]","children":"表示とiPhone内のデータを管理します。"}]]}],"$undefined"]}],["$","$L12",null,{}]]}],null,["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],"p":"$@16","v":null,"s":"$a"}}]]
 b:[["children",{"s":"settings","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@c","v":"$d","s":"$a"},"c":"$Qe"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/focus-board-site/_next/static/css/98225cde9af042b2.css","precedence":"next"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","$L8",null,{}]]}]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#F7F3FF"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Focus Board"}],["$","meta","1",{"name":"description","content":"自分の仕事を静かに前へ進める、個人用タスク・進捗管理アプリ。"}],["$","meta","2",{"name":"application-name","content":"Focus Board"}],["$","link","3",{"rel":"manifest","href":"/focus-board-site/manifest.webmanifest"}],["$","meta","4",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","5",{"name":"apple-mobile-web-app-title","content":"Focus Board"}],["$","meta","6",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}]]}]}],null]}],null]}],"p":"$@1b","v":null,"s":"$a"}},"a":"$@1c","u":"$@1d","b":"KkyHs3wCyDSP0JZYb7M9s"}
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/focus-board-site/_next/static/css/cd3da3882a9b6913.css","precedence":"next"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","$L8",null,{}]]}]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#F7F3FF"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Focus Board"}],["$","meta","1",{"name":"description","content":"自分の仕事を静かに前へ進める、個人用タスク・進捗管理アプリ。"}],["$","meta","2",{"name":"application-name","content":"Focus Board"}],["$","link","3",{"rel":"manifest","href":"/focus-board-site/manifest.webmanifest"}],["$","meta","4",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","5",{"name":"apple-mobile-web-app-title","content":"Focus Board"}],["$","meta","6",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}],["$","link","7",{"rel":"icon","href":"/focus-board-site/icon.svg"}],["$","link","8",{"rel":"apple-touch-icon","href":"/focus-board-site/apple-touch-icon.png"}],["$","$L1b","9",{}]]}]}],null]}],null]}],"p":"$@1c","v":null,"s":"$a"}},"a":"$@1d","u":"$@1e","b":"8R40U6gdgC8yDtUfNvYw1"}
 15:null
 a:300
-1d:true
+1e:true
 a:C
-1c:0
+1d:0
 c:"$undefined"
 9:"$undefined"
-1b:"$undefined"
+1c:"$undefined"
 16:"$undefined"
