@@ -1,4 +1,4 @@
-const CACHE = "focus-board-v3";
+const CACHE = "focus-board-v4";
 const BASE = new URL("./", self.location.href);
 const SHELL = [
   BASE.href,
@@ -16,4 +16,8 @@ self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET" || new URL(event.request.url).origin !== location.origin) return;
   event.respondWith(fetch(event.request).catch(() => caches.match(event.request).then((hit) => hit || caches.match(BASE.href))));
 });
-// Future Web Push handlers can be added here without changing the app shell.
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  event.waitUntil(clients.openWindow(BASE.href));
+});
+// A future push event can reuse the same notification UI when a delivery server is added.
