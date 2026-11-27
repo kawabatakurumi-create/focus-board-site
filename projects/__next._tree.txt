@@ -1,4 +1,4 @@
-:HL["/focus-board-site/_next/static/css/0479ce8313aee415.css","style"]
+:HL["/focus-board-site/_next/static/css/4474b2f0aad5c7a6.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"projects","h":96,"c":"$Q2"}]]
-0:{"b":"gwihr3m0uKcqXVsMZshPr","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"8Vzn5oHlFfvs6qjfKte5V","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
