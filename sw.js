@@ -1,4 +1,4 @@
-const CACHE = "focus-board-v4";
+const CACHE = "focus-board-v5";
 const BASE = new URL("./", self.location.href);
 const SHELL = [
   BASE.href,
@@ -18,6 +18,16 @@ self.addEventListener("fetch", (event) => {
 });
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  event.waitUntil(clients.openWindow(BASE.href));
+  event.waitUntil(clients.openWindow(new URL("tasks/", BASE).href));
 });
-// A future push event can reuse the same notification UI when a delivery server is added.
+self.addEventListener("push", (event) => {
+  let payload = {};
+  try { payload = event.data?.json() ?? {}; } catch { payload = {}; }
+  event.waitUntil(self.registration.showNotification(payload.title || "Focus Board", {
+    body: payload.body || "締切が近いタスクがあります。",
+    icon: new URL("icon-192.png", BASE).href,
+    badge: new URL("icon-192.png", BASE).href,
+    tag: payload.tag || "focus-board-deadline",
+    data: payload.data || {},
+  }));
+});
